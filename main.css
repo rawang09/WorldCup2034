@@ -1,0 +1,55 @@
+body {
+    background-image: url('back\ ground.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Almarai;
+    margin: 0; /* Remove default body margin */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make body take full height */
+}
+
+header {
+    background-color: #357e61;
+    width: 100%; /* Ensure header takes full width */
+}
+
+footer {
+    background-color: #357e61;
+    margin-top: auto; /* Push footer to the bottom */
+    width: 100%; /* Ensure footer takes full width */
+}
+
+.header-title {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-indicators [data-bs-target] {
+            border-radius: 50%; /* Make buttons rounded */
+        }
+
+.carousel-item {
+            height: 300px; /* Fixed height for carousel items */
+            background-size: cover; /* Cover the entire container */
+            background-position: center; /* Center the image */
+        }
+        
+.carousel-caption {
+            background-color: rgba(0, 0, 0, 0.5); /* Optional: Dark background for text readability */
+            padding: 20px; /* Padding around the caption */
+        }
+
+.carousel-container {
+            width: 800px; /* Fixed width for the carousel */
+            margin: auto; /* Center the carousel */
+            margin-bottom: 20px; /* Spacing below the carousel */
+        }
+
+.bg-transparent-white {
+            background-color: rgba(255, 255, 255, 0.318); /* White with 70% opacity */
+            padding: 10px; /* Optional: padding for better spacing */
+            border-radius: 5px; /* Optional: rounded corners */
+        }
+.text-shadow {
+            text-shadow: 2px 2px 4px rgb(0, 0, 0); /* Adjust values as needed */
+        }
